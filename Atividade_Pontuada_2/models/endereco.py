@@ -1,6 +1,6 @@
 import os
 from models.enums.unidade_federativa import UnidadeFederativa
-from abc import ABC, abstractclassmethod
+from abc import ABC
 
 
 class Endereco():

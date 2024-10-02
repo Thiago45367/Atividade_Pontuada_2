@@ -1,5 +1,5 @@
 import os
-from models.abstract.endereco import Endereco
+from Atividade_Pontuada_2.models.endereco import Endereco
 from abc import ABC 
 
 class Pessoas(ABC):

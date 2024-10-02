@@ -1,6 +1,6 @@
 import os
 from models.abstract.endereco import Endereco
-from abc import ABC, abstractclassmethod
+from abc import ABC 
 
 class Pessoas(ABC):
     def __init__(self, nome: str, telefone: str, email: str, endereco: Endereco) -> None:

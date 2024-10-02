@@ -1,7 +1,7 @@
 import os
 from models.enums.sexo import Sexo
 from models.abstract.Pessoas import Pessoas
-from abc import ABC, abstractclassmethod
+from abc import ABC
 
 class Fisica(Pessoas, ABC):
     def __init__(self, cpf: str, rg: str, dataNascimento: str, sexo: Sexo) -> None:

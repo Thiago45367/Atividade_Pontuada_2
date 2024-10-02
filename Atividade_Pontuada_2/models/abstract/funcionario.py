@@ -1,6 +1,6 @@
 import os
 from models.enums.setor import Setor
-from abc import ABC, abstractclassmethod
+from abc import ABC
 
 class Funcionario(ABC):
     def __init__(self, cpf: str, rg: str, matricula: str, setor: Setor, salario: float) -> None:

@@ -1,6 +1,6 @@
 import os
 from models.abstract.Pessoas import Pessoas
-from abc import ABC, abstractclassmethod
+from abc import ABC
 
 class Juridico(Pessoas, ABC):
      def __init__(self, cnpj: str, inscricaoEstadual: str) -> None:

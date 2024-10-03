@@ -3,7 +3,7 @@ from projeto.models.abstract.Pessoas import Pessoas
 
 @pytest.fixture
 def pessoas_valida():
-    Pessoas = Pessoas("Carlinhos", 25, "71 9654832", "thyere@gmail.com", endereco(Endereco))
+    Pessoas = Pessoas("Carlinhos", 25, "71 9654832", "thyere@gmail.com", Endereco())
     return Pessoas
 
 
